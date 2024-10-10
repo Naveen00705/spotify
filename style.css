@@ -1,0 +1,434 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.main-cont {
+    background-color: #1f1f1f;
+    flex: 1;
+    overflow: auto;
+    padding: 0 1rem;
+}
+
+.sidebar {
+    background-color: black;
+    width: 300px;
+    margin-right: 0.5rem;
+}
+
+.player {
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.sidebar-menu {
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    background-color: #212121;
+}
+
+.home {
+    padding: 0.25rem 0.75rem;
+    background-color: #212121;
+}
+
+.home i {
+    margin-right: 0.75rem;
+    background-color: #212121;
+    font-size: 1.25rem;
+}
+
+.search i {
+    margin-right: 0.75rem;
+    font-size: 1.25rem;
+    background-color: #212121;
+    font-size: 1.25rem;
+}
+
+.search {
+    background-color: #212121;
+    padding: 0.25rem 0.75rem;
+    opacity: 0.55;
+}
+
+.search:hover {
+    opacity: 1;
+}
+
+a {
+    background-color: #212121;
+    text-decoration: none;
+    font-size: 1rem;
+    font-size: 1.10rem;
+
+}
+
+.library {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #212121;
+    height: 5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-top: 0.55rem;
+
+}
+
+.lib-option:hover {
+    opacity: 1;
+}
+
+
+.lib-option {
+    opacity: 0.55;
+    padding: 0.25rem 0.5rem;
+    background-color: #212121;
+}
+
+.lib-option img {
+    margin-right: 0.75rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.library-icons i {
+    font-size: 1.55rem;
+    margin-right: 0.75rem;
+    background-color: #212121;
+    opacity: 0.6;
+}
+
+.library-icons i:hover {
+    opacity: 1;
+
+}
+
+.library-icons {
+    background-color: #212121;
+}
+
+.lib-card {
+    border-radius: 0.30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 0.5rem 0;
+    background-color: #1f1f1f;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0;
+
+}
+
+.badge {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    border-radius: 0.85rem;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+}
+
+.lib-card p,
+span {
+    cursor: pointer;
+    background-color: #1f1f1f;
+
+}
+
+.p1 {
+    font-weight: 700;
+    font-size: 1.20rem;
+}
+
+.p2 {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.emp {
+    background-color: #1f1f1f;
+    height: 100%;
+}
+
+.main-navbar1 {
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar-icon a {
+    margin-left: 1rem;
+    font-size: 1.45rem;
+}
+
+.navbar-icon {
+    background-color: #1f1f1f;
+}
+
+.Preminum {
+    background-color: white;
+    color: black;
+    color: text;
+    border-radius: 0.85rem;
+    padding: 0.5rem 1rem;
+    font-weight: bolder;
+}
+
+.navbar-button {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background-color: #212121;
+    margin-right: 0.85rem;
+}
+
+
+
+.App {
+    background-color: black;
+    color: white;
+    color: text;
+    border-radius: 0.85rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
+}
+
+.navbar-2nd {
+    background-color: #1f1f1f;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 0.25rem;
+    position: sticky;
+    top: 60px;
+}
+
+.all {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.75rem;
+
+}
+
+.all:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.10rem;
+}
+
+
+.Music {
+    background-color: rgb(51, 51, 51);
+    font-size: 1rem;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.75rem;
+    border: none;
+}
+
+.Music:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.10rem;
+}
+
+.Podcast {
+    background-color: rgb(51, 51, 51);
+    font-size: 1rem;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.75rem;
+    border: none;
+}
+
+.Podcast:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.10rem;
+}
+
+.try {
+    background-color: #1f1f1f;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.75rem;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.text a {
+    font-weight: 700;
+    background-color: #212121;
+    font-size: 1.45rem;
+}
+
+.try-btn button {
+    border: none;
+    background-color: #1f1f1f;
+    color: #b3b3b3;
+    font-size: 1.05rem;
+    margin: 0 0.5rem;
+}
+
+.cards{
+    height: 250px;
+    width: 205px;
+    background-color: #1f1f1f;
+
+
+}
+.cards p{
+    background-color: #1f1f1f;
+    color: #b3b3b3;
+
+}
+.main-card-sec{
+    flex-wrap: wrap;
+    gap: 1rem;
+    display: flex;
+    background-color: #1f1f1f;
+    margin-top: 0.5rem;
+}
+.cards img {
+    height: 200px;
+    width: 200px;
+    border-radius: 0.65rem;
+}
+.crds img {
+    border-radius: 0.65rem;
+
+}
+.footer{
+    height: 250px;
+    display: flex;
+    border-bottom: 1px solid white;
+    /* margin-bottom: 79px; */
+    border-radius: 5px;
+    align-items: center;
+    background-color: #212121;
+}
+.footer-cont{
+    height: 160px;
+    padding: 1rem 2rem;
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: #212121;
+    justify-content: center;
+   
+}
+ul{
+    background-color: #212121;
+}
+li{
+    background-color: #212121;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.pkg ul li :hover{
+    font-size: 1.75rem;
+}
+.social-link a i {
+    font-size: 1.85rem;
+    background-color: unset;
+}
+.social-link a i:hover{
+    font-size: 2.35rem;
+}
+.social-link  {
+    display: flex;
+    gap: 1.5rem;
+    height: 11rem;
+    background-color: #212121;
+}
+
+.copyright-sec{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1f1f1f;
+    gap: 0.5rem;
+    padding: 10px 31px 121px 31px;
+}
+.copyright-sec span{
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: #b3b3b3;
+    margin-left: 0.5rem;
+    background-color: #1f1f1f;
+}
+.copyright-sec :hover{
+    color: white;
+    font-size: 1.25rem;
+}
+
+.Spotify-copyright {
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.player{
+    background-color: black;
+    display: flex;
+    
+}
+.player-control img {
+    height: 20px;
+    margin-left: 52px;
+    font-size: 2rem;
+    width: 20px;
+    cursor: pointer;
+
+}
+.player-control  {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    background-color: black;
+}
+.player-detail{
+   
+    background-color: black;
+    width: 33%;
+}
+
+
+.player-button{
+    flex: 1;
+    display: flex;
+    gap: 9px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: end;
+    background-color: black;
+}
+
+.player-button i {
+    font-size: 15px;
+    background-color: black;
+}
